@@ -7,7 +7,7 @@ struct node
 {
 int minimum;
 int maximum;
-};
+}
 
 
 int getMid(int s, int e) { return s + (e -s)/2; }
