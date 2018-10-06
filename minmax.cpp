@@ -25,7 +25,7 @@ struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
 	{
 	tmp.minimum = INT_MAX;
 	tmp.maximum = INT_MIN;
-	return tmp;
+	return tmp
 	}
 
 
