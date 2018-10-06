@@ -3,7 +3,7 @@
 using namespace std;
 
 
-struct node
+struct funct
 {
 int minimum;
 int maximum;
