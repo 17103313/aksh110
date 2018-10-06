@@ -7,7 +7,7 @@ struct node
 {
 int minimum;
 int maximum;
-}
+};
 
 
 int getMid(int s, int e) { return s + (e -s)/2; }
@@ -25,7 +25,7 @@ struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
 	{
 	tmp.minimum = INT_MAX;
 	tmp.maximum = INT_MIN;
-	return tmp
+	return tmp;
 	}
 
 
@@ -57,7 +57,7 @@ void constructSTUtil(int arr[], int ss, int se, struct node *st,
 					int si)
 {
 
-	if (ss === se)
+	if (ss == se)
 	{
 		st[si].minimum = arr[ss];
 		st[si].maximum = arr[ss];
