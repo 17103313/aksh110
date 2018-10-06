@@ -94,5 +94,5 @@ int main()
 	printf("Minimum = %d and Maximum = %d ",
 					result.minimum, result.maximum);
 
-	return 0
+	return 0;
 }
