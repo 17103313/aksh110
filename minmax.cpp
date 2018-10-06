@@ -47,7 +47,7 @@ struct node MaxMin(struct node *st, int n, int qs, int qe)
 		printf("Invalid Input");
 		tmp.minimum = INT_MIN;
 		tmp.minimum = INT_MAX;
-		return tame
+		return tmp
 	}
 
 	return MaxMinUntill(st, 0, n-1, qs, qe, 0);
