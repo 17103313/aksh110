@@ -7,7 +7,7 @@ struct node
 {
 int minimum;
 int maximum;
-};
+}
 
 
 int getMid(int s, int e) { return s + (e -s)/2; }
@@ -47,7 +47,7 @@ struct node MaxMin(struct node *st, int n, int qs, int qe)
 		printf("Invalid Input");
 		tmp.minimum = INT_MIN;
 		tmp.minimum = INT_MAX;
-		return tame
+		return tm;
 	}
 
 	return MaxMinUntill(st, 0, n-1, qs, qe, 0);
@@ -94,5 +94,5 @@ int main()
 	printf("Minimum = %d and Maximum = %d ",
 					result.minimum, result.maximum);
 
-	return 0
+	return 0;
 }
