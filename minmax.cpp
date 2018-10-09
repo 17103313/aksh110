@@ -1,6 +1,6 @@
 
 #include<iostream>
-using namespace std;
+using namespace std
 
 
 struct funct
@@ -10,7 +10,7 @@ int maximum;
 };
 
 
-int getMid(int s, int e) { return s + (e -s)/2; }
+int getMid(int s, int e) { return s + (e -s)/2 }
 
 struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
 						int qe, int index)
