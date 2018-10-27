@@ -3,7 +3,7 @@
 using namespace std
 
 
-struct funct
+Ntruct funct
 {
 int minimum;
 int maximum;
