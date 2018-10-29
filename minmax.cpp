@@ -7,7 +7,7 @@ struct function
 {
 int minimum;
 int maximum;
-};
+}
 
 
 int getMid(int s, int e) { return s + (e -s)/2 }
@@ -34,7 +34,7 @@ struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
 	right = MaxMinUntill(st, mid+1, se, qs, qe, 2*index+2);
 	tmp.minimum = min(left.minimum, right.minimum);
 	tmp.maximum = max(left.maximum, right.maximum);
-	return tmp;
+	return 
 }
 
 struct node MaxMin(struct node *st, int n, int qs, int qe)
