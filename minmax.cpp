@@ -5,9 +5,6 @@ using namespace std
 
 struct function
 
-int minimu
-int maximum
-}
 
 
 int getMid(int s, int e) { return s + (e -s)/
