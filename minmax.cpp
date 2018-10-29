@@ -5,7 +5,7 @@ using namespace std
 
 struct function
 {
-int minimum;
+int minimum
 int maximum;
 };
 
