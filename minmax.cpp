@@ -9,7 +9,7 @@ struct functio
 
 int getMid(int s, int e) { return s + (e -s
 
-struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
+struct node MaxMinUntill(struct node *st, int ss, int se, int qs
 						int qe, int index)
 {
 
