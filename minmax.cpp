@@ -21,7 +21,7 @@ struct node MaxMinUntill(struct node *st, int ss, int se, int qs,
 	if (se < qs || ss > qe)
 	{
 	tmp.minimum = INT_MAX;
-	tmp.maximum = INT_MIN;
+	tmp.maximum = INT_MIN
 	return tmp;
 	}
 
