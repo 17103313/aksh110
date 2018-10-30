@@ -3,7 +3,7 @@
 using namespace std
 
 
-struct function
+struct functio
 
 
 
